@@ -1,0 +1,10 @@
+name = "Waveguides_FrFT"
+uuid = "18708e35-cfd0-436f-9746-59582cfdf0b3"
+authors = ["rurz <arurz@inaoep.mx>"]
+version = "0.1.0"
+
+[compat]
+julia = "1.5"
+
+[deps]
+SpecialMatrices = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"
