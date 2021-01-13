@@ -39,9 +39,5 @@ k(j) = LinearAlgebra.eigvals(H(j));
 # in the symmetry importation to construct the evolution operator
 η(j) = [l for l in 0:(2j + 1)];
 
-# Evolution operator
-G(j, m, μ, t) = sum([h(j)[m + j + 1, l + 1] * exp(-1im * pi * t * η(j)[l + 1]/2.0) * h(j)[μ + j + 1, l + 1] for l in 0:2j]);
-
-# If necessary, this function gives the matrix of the evolution operator
-# in function of t. IT IS REALLY SLOW
-P(j, t) = reshape([G(j, m, μ, t) for m in -j:j for μ in -j:j], (2j + 1, 2j + 1))
+# Kernel of the evolution
+ker(j, t) = exp.(-1im * pi * t * η(j)/2.0)
