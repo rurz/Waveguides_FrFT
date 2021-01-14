@@ -3,3 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - matplotlib
+  - numpy
+  - pip
+  - pip:
+      - julia
