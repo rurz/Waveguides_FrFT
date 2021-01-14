@@ -1,0 +1,5 @@
+name: Waveguides_FrFT
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
