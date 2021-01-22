@@ -4,10 +4,13 @@ authors = ["Alejandro R. Urzúa <arurz@inaoep.mx>"]
 version = "0.1.0"
 
 [deps]
+HypergeometricFunctions = "34004b35-14d8-5ef3-9330-4cdb6864b03a"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 SpecialMatrices = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"
+UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
 
 [compat]
 julia = "1.5"
